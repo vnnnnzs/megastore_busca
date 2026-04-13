@@ -17,7 +17,7 @@ fn test_recomendacao_por_grafo() {
     store.adicionar_produto("teclado", 150.0, "perifericos");
     store.adicionar_produto("mouse", 80.0, "perifericos");
     
-    // Testa a aresta do grafo (conexão entre produtos)
+ 
     store.conectar_produtos("teclado", "mouse");
     
     let recomendacoes = store.obter_recomendacoes("teclado");
